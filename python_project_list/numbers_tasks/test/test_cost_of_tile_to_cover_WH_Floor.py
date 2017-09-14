@@ -36,5 +36,4 @@ class MyTestCase(unittest.TestCase):
         (625,{'floor_height': 10, 'floor_width': 15, 'tile_height': 2, 'tile_width': 3, 'tile_cost': 25}),
     ])
     def test_calc_function(self, result, kwarg):
-        print(calc_function(**kwarg))
         self.assertEquals(calc_function(**kwarg), result)
