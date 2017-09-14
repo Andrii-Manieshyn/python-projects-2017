@@ -9,7 +9,7 @@ from enum import Enum
 
 class Interval(Enum):
     MONTHLY = 12.0
-    WEEKLY = 52.0
+    WEEKLY = 52.1429
     DAILY = 365.0
 
 term = int(input('Enter term: '))
