@@ -88,7 +88,7 @@ def calculate_reverse_polish_notation(notation):
     i = 0
     while len(notation)!=1:
         symbol = notation[i]
-        if (symbol in functions) or (not symbol.replace('.','1').lstrip('+-').isdigit()):
+        if (symbol in functions) or (not symbol.replace('.','',1).lstrip('+-').isdigit()):
             if symbol in functions:
                 res = 0
                 j = i - 1
@@ -115,6 +115,3 @@ def calculate_reverse_polish_notation(notation):
 def calculate_expresion(exp):
     notation = reverse_polish_notation(exp)
     return calculate_reverse_polish_notation(notation)
-
-
-print(calculate_expresion('exp ( -1 / 2 * 5 ) + ln ( lg ( 100 ) )'))
