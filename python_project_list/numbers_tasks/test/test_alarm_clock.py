@@ -1,11 +1,7 @@
-from nose.tools import assert_equal
-from parameterized import parameterized
-
 import unittest
 from  unittest.mock import Mock, call
 from  unittest.mock import MagicMock
 
-import pygame
 from numbers_tasks.src.alarm_clock import *
 
 class AlarmClock(unittest.TestCase):

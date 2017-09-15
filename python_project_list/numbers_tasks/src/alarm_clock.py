@@ -30,7 +30,7 @@ def play_sound():
 def get_input_time():
     option = int(input("Enter after what time should alarm start [1] or at what time [2]?"))
     while option != 1 and option != 2:
-        option = int(input("Chouse one option: after what time should alarm start [1] or at what time [2]?"))
+        option = int(input("Choose one option: after what time should alarm start [1] or at what time [2]?"))
         print(option)
     if option==1:
         days = int(input("Enter days: "))
