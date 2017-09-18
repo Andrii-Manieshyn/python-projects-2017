@@ -1,3 +1,9 @@
+"""
+Sorting
+
+Implement two types of sorting algorithms: Merge sort and bubble sort.
+
+"""
 from classical_algorithm.src.time_counter import count_time
 
 @count_time
