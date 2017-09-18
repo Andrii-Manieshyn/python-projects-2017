@@ -56,3 +56,7 @@ def merge_sort(array):
             j=j+1
             k=k+1
     return array
+
+
+if __name__ == '__main__':
+    qsort([10, 9, 5, 6, 7, 1, 2, 0])
