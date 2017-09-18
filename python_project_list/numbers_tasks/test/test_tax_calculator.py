@@ -16,7 +16,7 @@ class TestNameGetter(unittest.TestCase):
     @patch('builtins.input', side_effect=[1, 100, 0.3])
     def test_tax_calculator(self, mocket_input):
         result = tx.calculate_tax_rate()
-        assert_equal(result, ( 0.3, 130))
+        assert_equal(result, (0.3, 130))
 
 
 if __name__ == '__main__':
